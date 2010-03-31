@@ -5,7 +5,7 @@ require File.expand_path(File.dirname(__FILE__) + '/min.rb')
 class Application < Sinatra::Base
   
   attr_accessor :js
-  
+
   configure do
     dir = File.dirname(File.expand_path(__FILE__))  
     set :views,  "#{dir}/../views"
