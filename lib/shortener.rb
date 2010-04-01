@@ -18,5 +18,6 @@ end
 
 post '/' do
   @js = @shorten.minimize(params['js'])
+  @wat = @shorten.showme
   erb :minify
 end
