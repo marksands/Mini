@@ -13,6 +13,6 @@ class Minimizer
   end
   
   def showme
-    @tempfile.path
+    %w{which java}
   end
 end
