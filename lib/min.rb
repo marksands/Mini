@@ -13,6 +13,6 @@ class Minimizer
   end
   
   def showme
-    %w{which java}
+    %w{type java}
   end
 end
