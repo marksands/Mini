@@ -16,8 +16,7 @@ get '/' do
   erb :home
 end
 
-post '/' do
+post '/minify' do
   @js = @shorten.minimize(params['js'])
-  @wat = @shorten.showme
   erb :minify
 end

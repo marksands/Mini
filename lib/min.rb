@@ -11,8 +11,4 @@ class Minimizer
     upload_file(js)
     %x{java -jar lib/yuicompressor-2.4.2.jar --type js #{@tempfile.path}}
   end
-  
-  def showme
-    %w{type java}
-  end
 end
