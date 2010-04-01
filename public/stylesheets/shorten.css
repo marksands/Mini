@@ -90,3 +90,7 @@ div#mini {
 	width: 60% !important;
 	margin: 2em auto !important;
 }
+
+#mini a {
+	text-decoration: none;
+}
