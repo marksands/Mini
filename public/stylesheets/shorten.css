@@ -47,7 +47,6 @@ p {
 
 textarea {
   display: block;
-/*	 background-color: #EBF0F4; */
 	background-color: rgb(254, 252, 250);
   font-size: 1.17em;
   font-weight: bold;
@@ -61,4 +60,9 @@ form {
 
 input {
   font-size: 2em;
+}
+
+div#mini {
+	width: 60% !important;
+	margin: 2em auto !important;
 }

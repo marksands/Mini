@@ -1,6 +1,6 @@
 require 'tempfile'
 
-class Minimizer  
+class Minimizer   
   def upload_file(js)
     @tempfile = Tempfile.new("mini-me.js")
     @tempfile << js
