@@ -16,7 +16,16 @@ get '/' do
   erb :home
 end
 
-post '/minify' do
+get '/css' do
+  erb :css
+end
+
+post '/minify/js' do
   @js = @shorten.minimize(params['js'])
+  erb :minify
+end
+
+post '/minify/css' do
+  @css = @shorten.minimize_css(params['css'])
   erb :minify
 end
